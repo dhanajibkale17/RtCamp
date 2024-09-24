@@ -52,7 +52,14 @@ Contributions are welcome! If you'd like to improve this project:
   Please ensure your code follows the best practices and write tests for any new features.
 
 git Command:
-
+or create a new repository on the command line
+echo "# RtCamp_Assignment" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dhanajibkale17/RtCamp_Assignment.git
+git push -u origin main
 
 
   
