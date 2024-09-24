@@ -1,10 +1,11 @@
-exports.LoginPage = class LoginPage
+exports.LoginPage = 
+ class LoginPage
 {
     constructor(page){
         this.page=page;
         //this.LoginPage="";
-        this.UserNameInput="user-name"; 
-        this.PasswordInput="password";
+        this.UserNameInput="#user-name"; 
+        this.PasswordInput="#password";
         this.LoginButton="//input[@id='login-button']";
     }
    async goToLoginPage(){
